@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PruebaAlvaro</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    General
+    <string name="clear">Limpiar campos</string>
+
+    <!--MainActivity-->
+    <string name="insert_register">Insertar registro</string>
+    <string name="search_register">Buscar registro</string>
+
+    <!--InsertRegisterActivity-->
+    <string name="insert_regiser_activity">Insertar Registro</string>
+    <string name="name">nombre</string>
+    <string name="last_name">apellido</string>
+    <string name="score">calificación</string>
+    <string name="insert"> Insertar registro</string>
+    <string name="insert_ok">Registro insertado exitosamente</string>
+    <string name="insert_fail">No fue posible insertar el registro</string>
+
+    <!--SearchRegisterActivity-->
+    <string name="search_regiser_activity">Buscar Registro</string>
+    <string name="search_id">ID</string>
+    <string name="search_name">Nombre</string>
+    <string name="search_last_name">Apellido(s)</string>
+    <string name="search_score">Calificación</string>
+    <string name="search_by">Buscar por: </string>
+    <string name="search">   Buscar   </string>
+    <string name="id_selected">ID seleccionado</string>
+    <string name="name_selected">Nombre seleccionado</string>
+    <string name="last_name_selected">Apellido(s) seleccionado(s)</string>
+    <string name="score_selected">Calificación seleccionada</string>
+
+    <!--SettingsActivity-->
+    <string name="settings_activity">Configuración</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_by"/>
+
+    <RadioGroup
+        android:id="@+id/rgp_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_id"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_name"/>
+
+        <RadioButton
+            android:id="@+id/rbt_last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_last_name"/>
+
+        <RadioButton
+            android:id="@+id/rbt_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_score"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etx_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="parámetro"/>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:layout_gravity="center"
+        android:padding="20dp"/>
+
+    <ListView
+        android:id="@+id/lvw_registers"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

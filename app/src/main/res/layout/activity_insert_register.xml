@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etx_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:layout_marginBottom="10dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/etx_last_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:layout_marginBottom="10dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/etx_score"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/score"
+        android:layout_marginBottom="10dp"
+        android:singleLine="true"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_insert"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/insert"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
